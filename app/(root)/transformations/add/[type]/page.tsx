@@ -3,6 +3,7 @@ import TransformationForm from '@/components/shared/TransformationForm';
 import { transformationTypes } from '@/constants'
 import { getUserById } from '@/lib/actions/user.actions';
 // import { redirect } from 'next/dist/server/api-utils';
+import { redirect } from 'next/navigation';
 import {auth} from '@clerk/nextjs'
 import React from 'react'
 

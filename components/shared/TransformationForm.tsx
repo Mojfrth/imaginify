@@ -55,7 +55,7 @@ const TransformationForm = ({action,data=null,userId,type,creditBalance,config=n
     const[isPending,startTransition]=useTransition();
     const router=useRouter()
 
-    const initialValues = data && action ==='Update'?{
+    const initialValues = data && action === 'Update' ? {
         title:data?.title,
         aspectRatio:data?.aspectRatio,
         color:data?.color,

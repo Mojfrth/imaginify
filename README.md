@@ -4,8 +4,8 @@ At its core, this app is built using Next.js 14, a modern React framework known 
 
 To handle user authentication and authorization, the app integrates Clerk, a robust authentication system. Clerk provides secure user management functionalities, allowing users to sign up, log in, and manage their accounts seamlessly. With Clerk, users can trust that their data is protected and accessible only to authorized individuals.
 
-The app also utilizes MongoDB, a flexible and scalable NoSQL database, to store and manage user data, application settings, and other essential information. MongoDB's document-based structure and powerful querying capabilities make it an ideal choice for handling diverse data requirements.
+The app also utilizes MongoDB, to store and manage user data, application settings, and other essential information. MongoDB's document-based structure and powerful querying capabilities make it an ideal choice for handling diverse data requirements.
 
-For managing media assets such as images and videos, the app integrates Cloudinary AI, a comprehensive media management platform. Cloudinary AI not only provides efficient storage and delivery of media assets but also offers AI-powered features such as image recognition, transformation, and optimization. With Cloudinary AI, users can enhance their media content effortlessly.
+For managing media assets such as images , the app integrates Cloudinary AI, a comprehensive media  platform.
 
 To monetize the app and enable users to access premium features, the app incorporates a payments and credits system powered by Stripe, a leading online payment processing platform.
